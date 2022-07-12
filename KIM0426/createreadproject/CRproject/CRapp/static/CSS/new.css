@@ -1,0 +1,127 @@
+body{
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+}
+
+.register{
+    display:flex;
+    flex-direction:column;
+    color:#51A998;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+
+    height:5vh;
+}
+.registerator{
+
+  font-size:1.5rem;
+  color:#51A998;
+  text-transform: uppercase;
+  letter-spacing: 0.275em;
+
+}
+
+.form{
+    margin:1rem auto;
+    display:flex;
+    flex-direction:column;
+    border: 1px solid #D1D1D1;
+    width:70%;
+    justify-content:space-between;
+    height:100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #000000;
+
+}
+
+.type{
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+input[type = checkbox]{
+    font-size: 1rem;
+}
+
+label{
+cursor:pointer;
+}
+
+
+.status{
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.title{
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#title{
+width:80%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+input[type = date]{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.date{
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.face{
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.image{
+    margin-top:1rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.content{
+
+
+
+    margin-top:1rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+.submit{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:1rem;
+}
+
+#submit{
+    background-color:#51a998;
+    color:white;
+    height:auto;
+    cursor:pointer;
+    font-size:2rem;
+}

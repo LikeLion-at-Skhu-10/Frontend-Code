@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "{% static 'CSS/register.css' %}">
+
+</head>
+<body>
+
+
+    <div class = "nav">
+
+        <img src = "{% static 'image/KakaoTalk_20220704_173541256.png' %}" width="60px" height="60px">
+        <div class = "MYpage">스터디 등록</div>
+    </div>
+
+    <form action="{%url 'register_study' %}" method="POST">
+        {% csrf_token %}
+        <div class = "form_input">
+        <input type = "text" placeholder="스터디 이름 입력" id = "name_study" size = 30>
+        <div class = "date">
+               <label for = "Monday">
+               <input type = "checkbox" id = "Monday" value = "월요일" name = "date_list">월요일
+               </label>
+
+               <label for = "Tuesday">
+               <input type = "checkbox" id = "Tuesday" value = "화요일" name = "date_list">화요일
+               </label>
+
+               <label for = "Wednesday">
+               <input type = "checkbox" id = "Wednesday" value = "수요일" name = "date_list">수요일
+               </label>
+
+               <label for = "Thursday">
+               <input type = "checkbox" id = "Thursday" value = "목요일" name = "date_list">목요일
+               </label>
+
+               <label for = "Friday">
+               <input type = "checkbox" id = "Friday" value = "금요일" name = "date_list">금요일
+               </label>
+
+               <label for = "Saturday">
+               <input type = "checkbox" id = "Saturday" value = "토요일" name = "date_list">토요일
+               </label>
+
+               <label for = "Sunday">
+               <input type = "checkbox" id = "Sunday" value = "일요일" name = "date_list">일요일
+               </label>
+        </div>
+
+        <div class = "date_css">
+
+        <lable for = "starttime">시작시간
+        <input type = "time" id = "starttime" placeholder="시작시간" size = "30">
+        </lable>
+        <label for = "endtime"> 끝나는시간
+        <input type = "time" id = "endtime" placeholder = "끝나는시간" size = "30">
+        </label>
+        </div>
+        <button id = "submit" onclick = "formsubmit()" type = "submit">등록하기</button>
+
+    </div>
+    </form>
+
+
+    <div class = "list">
+        <div class = "list_detail">
+
+        </div>
+    </div>
+
+
+     <script src = "{% static 'JS/register.js' %}"></script>
+
+
+</body>
+</html>
