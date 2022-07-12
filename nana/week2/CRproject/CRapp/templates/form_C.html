@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CR.css' %}">
+    <title>form을 이용한 글 작성 페이지</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+
+        {% csrf_token %}
+
+        {% for field in form %}
+        <div>
+            <labl for="{{ field.id_for_label }}" class="form_labl">{{ field.label }}</labl>
+            <br>
+            <input type="{{ field.field.widget.input_type }}" class="form_title"
+                placeholder="{{ field.label }}" name="{{ field.name }}">
+        </div>
+        {% endfor %}
+        <input type="submit" value="생성">
+    </form>
+</body>
+</html>
+

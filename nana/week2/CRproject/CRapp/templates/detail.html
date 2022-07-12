@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CR.css' %}">
+    <title>Main page</title>
+</head>
+
+<body>
+    <h1>제목</h1>
+    <p class="detail_style">{{ blog_detail.title }}</p>
+
+    <h2>날짜</h2>
+    <p class="detail_style">{{ blog_detail.date }}</p>
+
+    <h3>본문</h3>
+    <p class="detail_style">{{ blog_detail.body }}</p>
+
+
+</body>
+</html>
+

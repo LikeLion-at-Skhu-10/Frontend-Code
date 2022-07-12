@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CR.css' %}">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Home</h1>
+
+<a href="{% url 'new' %}">html을 이용한 새 글 작성</a> <br>
+
+<a href="{% url 'formC' %}">django form을 이용한 새 글 작성</a> <br>
+
+<a href="{% url 'modelformC' %}">modelformC을 이용한 새 글 작성</a> <br>
+
+{% for post in posts %}
+
+<a href="{% url 'detail' post.id %}">
+    <p id="html_title"><p class="blog_detail">{{post.id}} : {{post.title}}</p></p>
+</a><br>
+{{ post.date }}<br><br>
+
+{% endfor %}
+</body>
+</html>
+
