@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html을 이용한 새 글 작성 페이지</title>
+    <style>
+        @font-face {
+            font-family: 'EarlyFontDiary';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0ex1snoXrpXDt2X_zo0G0s3deoSxn1q4yQ&usqp=CAU); background-size: cover;
+            font-family: 'EarlyFontDiary';}
+        div#title {padding: 20px; margin: 10px auto; width: 400px;}
+        div#title label{ font-size: 30px;}
+        div#title input {border: 3px solid rgb(164, 130, 130); width:300px;}
+        div#body {padding: 30px; margin: 30px auto; width: 700px; border: 1px 
+            solid #ccc; box-shadow: 3px 3px 3px #aaa; background-image: url(https://e7.pngegg.com/pngimages/707/482/png-clipart-kitten-cat-desktop-kitten-animals-cat-like-mammal.png); background-size: cover;}
+        div#body label{ padding: 60px; margin: 20px; font-size: 30px;}
+        div#body textarea {padding: 40px; margin:40px; width:500px; height: 200px; border: 3px solid rgb(164, 130, 130)}
+        input {padding: 10px; margin: 10px; width: 100px; height: 40px; background-color: white; color: brown; border:3px solid rgb(164, 130, 130)}
+    </style>
+</head>
+<body>
+    <form action="{% url 'create' %}" method="POST">
+        {% csrf_token %}
+        <br>
+        <div id="title">
+            <label for="title">제목</label><br>
+            <input type="text" name="title" id="title">
+        </div>
+        <hr>
+        <br>
+        <div id="body">
+            <br>
+            <label for="body">내용</label>
+            <br>
+            <textarea name="body" id="body" cols="30" rows="10"></textarea>
+            <input type="submit" value="글 생성하기">
+    </form>
+</body>
+</html>
