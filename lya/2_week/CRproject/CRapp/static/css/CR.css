@@ -1,0 +1,35 @@
+.html_title {
+    color: blue;
+    font-size: 50px;
+}
+
+.form_title {
+    border: 5px solid aquamarine;
+}
+
+#form_label {
+    color:brown;
+}
+
+a{
+    text-decoration:none;
+}
+
+.html_date{
+    font-size:30px;
+}
+
+.Blog_Title{
+    color:orangered;
+    text-align:center;
+}
+
+.Day_Day{
+    color:grey;
+    text-align:center;
+}
+
+.Blog_Content{
+    color:black;
+    text-align:center;
+}

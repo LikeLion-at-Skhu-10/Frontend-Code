@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CR.css' %}" />
+  </head>
+<h1>제목</h1>
+<p class= "Blog_Title">{{ blog_detail.title }}</p>
+
+<h2>날짜</h2>
+<div class="Day_Day">{{ blog_detail.date }}</div>
+
+<h4>작성 시간</h4>
+<div class="Time_Time"{{blog_detail.time}}></div>
+
+<h3>본문</h3>
+<div class="Blog_Content">{{ blog_detail.body }}</div>
+

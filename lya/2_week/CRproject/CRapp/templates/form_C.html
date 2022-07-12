@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type="text/css" href="{% static 'css/CR.css' %}">
+    <title>form을 이용한 글 작성 페이지</title>
+</head>
+<body>
+    <form action="" method="POST">
+
+        {% csrf_token %}
+    
+        {% for field in form %}
+        {{field.label}}
+        <input type="{{ field.field.widget.input_type }}" name="{{ field.name }}">
+        {% endfor %}
+
+        <input type="submit" value="생성">
+    </form>
+</body>
+
+</html>
