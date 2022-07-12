@@ -1,0 +1,15 @@
+<form action="{% url 'create' %}" method="POST">
+    {% csrf_token %}
+    <head>
+        <link rel="stylesheet" type="text/css" href="new.css">
+    </head>
+    <div>
+        <label class="title" for="title">제목</label><br>
+        <input type="text" name="title" id="title">
+    </div>
+    <div>
+        <label class="body" for="body">내용</label>
+        <textarea name="body" id="body" cols="30" rows="10"></textarea>
+    </div>
+    <input type="submit" class="new_input" value="글 생성하기">
+</form>

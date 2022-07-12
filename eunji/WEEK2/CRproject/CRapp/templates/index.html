@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CR.css' %}">
+    <title>Eunji</title>
+</head>
+
+<body>
+
+<h1>Home</h1>
+
+<a href="{% url 'new' %}">html을 이용한 새 글 작성</a> <br>
+<a href="{% url 'formC' %}">django form을 이용한 새 글 작성</a> <br>
+<a href="{% url 'modelformC' %}">django modelform을 이용한 새 글 작성</a>
+
+<br><br>
+
+{% for post in posts %}
+
+<a href="{% url 'detail' post.id %}">
+    <p class="html_tiatle">{{post.id}}: {{ post.title }}</p>
+</a>
+<p class="html_date">{{ post.date }}</p>
+<br>
+<p class="html_body">{{post.body}}</p><br><br>
+
+{% endfor %}
+</body>
+
+</html>

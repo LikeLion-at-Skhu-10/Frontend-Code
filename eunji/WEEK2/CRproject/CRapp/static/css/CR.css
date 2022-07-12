@@ -1,0 +1,28 @@
+.html_title {
+    font-size: 300px;
+}
+
+.html_body {
+    font-size: 30px;
+}
+
+.html_date {
+    color: red;
+}
+
+.detail_html {
+    text-align: center;
+    color: slategray;
+}
+
+.form_title {
+    border: 5px solid aquamarine;
+}
+
+.new_input {
+    text-shadow: 3px deeppink;
+}
+
+#form_labl {
+    color: rebeccapurple;
+}

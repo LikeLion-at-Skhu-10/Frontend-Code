@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/CR.css' %}">
+    <title>form을 이용한 글 작성 페이지</title>
+</head>
+
+<body>
+
+    <h1>django form을 이용한 글 작성 페이지</h1>
+
+    <form action="" method="POST">
+        <!--model form도 이 html을 사용할 거라 action에 특정 경로 지정하지 않고 디폴트로 해두기-->
+        {% csrf_token %}
+        <!--views.py에서 보내준 form을-->
+        {% for field in form %}
+        <div>
+            <labl for="{{ field.id_for_label }}" id="form_labl">{{ field.label }}</labl>
+            <br>
+            <input type="{{ field.field.widget.input_type }}" class="form_title" placeholder="{{ field.label }}" name="{{ field.name }}">
+        </div>
+        {% endfor %}
+        <input type="submit" value="생성">
+    </form>
+</body>
+
+</html>
