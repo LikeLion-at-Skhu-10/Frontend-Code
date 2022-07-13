@@ -1,0 +1,24 @@
+<form action="{% url 'create' %}" method="POST">
+  {% csrf_token %}
+
+  <div style="color: greenyellow">
+    <label for="title"><strong>제목</strong></label
+    ><br />
+    <input type="text" name="title" id="title" style="border-radius: 20%" />
+  </div>
+  <div style="color: orangered; display: flex; justify-content: center">
+    <label for="body">내용</label>
+    <textarea
+      name="body"
+      id="body"
+      cols="30"
+      rows="10"
+      style="border-radius: 20%"
+    ></textarea>
+  </div>
+  <input
+    type="submit"
+    value="글 생성하기"
+    style="margin-left: 47%; margin-top: 10px"
+  />
+</form>
