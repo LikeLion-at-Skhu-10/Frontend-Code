@@ -1,0 +1,67 @@
+.html_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.html_title:hover {
+  color: orange;
+  border: 1px dotted orange;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form_field {
+  border: 3px solid palegreen;
+  border-radius: 5px;
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+}
+
+.submit_field {
+  width: 50px;
+  margin-left: 110px;
+  margin-top: 20px;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+}
+
+.form_label {
+  color: lightgreen;
+}
+
+.blog_title {
+  color: indianred;
+  border: 1px solid salmon;
+  background-color: aqua;
+  text-align: center;
+}
+
+.blog_date {
+  color: greenyellow;
+  border: 1.5px groove yellow;
+  background-color: forestgreen;
+  text-align: center;
+}
+
+.blog_body {
+  color: blue;
+  border: 2px dotted skyblue;
+  background-color: beige;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.html_date {
+  border: 1px solid black;
+  text-align: center;
+}
