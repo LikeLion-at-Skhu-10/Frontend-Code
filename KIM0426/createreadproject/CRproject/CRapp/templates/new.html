@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href = "{% static 'CSS/new.css' %}">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div class = "register" style="margin-top:2rem;">
+        <b>등록하기</b>
+        <div class = "registerator">registration</div>
+    </div>
+
+    <div class = "form">
+
+    <form action = "{%url 'create' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+
+            <div class = "type">
+                <div style="color:#51A998;">
+                    모집분야
+                </div>
+                <label for = "study">
+                <input type = "checkbox" id = "study" value = "스터디">스터디
+                </label>
+                <label for = "social_club">
+                <input type = "checkbox" id = "social_club" value = "소모임">소모임
+                </label>
+                <label for = "project">
+                <input type = "checkbox" id = "project" value = "프로젝트">프로젝트
+                </label>
+                <label for = "survey">
+                <input type = "checkbox" id = "survey" value = "설문조사">설문조사
+                </label>
+            </div>
+
+            <div class = "status">
+                <div style="color:#51A998;">모집 상태</div>
+                <label for = "is_recruit">
+                    <input type = "checkbox" id = "is_recruit" value = "모집중">모집중
+                </label>
+
+                <label for = "is_end">
+                    <input type = "checkbox" id = "is_end" value = "모집완료">모집완료
+                </label>
+            </div>
+
+            <div class = "title">
+                <div style="color:#51A998;">제목</div>
+           <label for = "title"></label>
+           <input type = "text" name = "title" id = "title">
+            </div>
+
+            <div class = "date">
+                <div style="color:#51A998;">모집 기간</div>
+                <label for = "startdate"></label>
+                <input type = "date" id = "startdate" name = "startdate">
+
+                <label for = "enddate"></label>
+                <input type = "date" id = "enddate" name = "enddate">
+            </div>
+
+        <div class = "face">
+            <div style="color:#51A998;">대면여부</div>
+            <label for = "face">대면
+            <input type = "checkbox" id = "face" value = "face">
+            </label>
+
+            <label for = "notface">비대면
+            <input type = "checkbox" id = "notface" value = "notface">
+            </label>
+
+            <label for = "notyet">추후결정
+            <input type = "checkbox" id = "notyet" value = "notyet">
+            </label>
+        </div>
+        <div class = "image">
+            <div style="color:#51A998;">이미지 첨부하기</div>
+            <input type = "file" name = "image" id = "image">
+        </div>
+
+        <div class = "content">
+            <div>
+            <label for = "body" style="color:#51a998;">내용</label>
+            </div>
+            <div>
+            <textarea name = "body" id = "body" cols = "40" rows = "20">
+            </textarea>
+            </div>
+        </div>
+
+
+
+        <div class = "submit">
+
+        <input type = "submit" value = "글 생성" id = "submit">
+        </div>
+
+    </form>
+
+    </div>
+
+</body>
+</html>
