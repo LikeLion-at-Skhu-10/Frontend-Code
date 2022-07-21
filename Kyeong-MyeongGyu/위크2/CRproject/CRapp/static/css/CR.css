@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'CBNUJIKJI';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/CBNUJIKJI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.html_title {
+    font-family: 'CBNUJIKJI';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.html_date {
+    font-size: 20px;
+    color: rgb(239, 118, 255);
+}
+
+.form_field {
+    font-family: 'CBNUJIKJI';
+    border: 8px ridge rgb(122, 255, 122);
+}
+
+.form_label {
+    color: slateblue;
+    font-weight: bold;
+}
+
+.detail_text {
+    font-family: 'EarlyFontDiary';
+    color:blueviolet;
+}
