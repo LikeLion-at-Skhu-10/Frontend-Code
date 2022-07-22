@@ -21,11 +21,11 @@
 {% for post in posts %}
 
 <a href="{% url 'detail' post.id %}">
-    <p id="html_title"><p class="blog_detail">{{post.id}} : {{post.title}}</p></p>
+    <p class="html_title">{{post.id}} : {{post.title}}</p>
 </a><br>
 {{ post.date }}<br><br>
 
-{% endfor %}
-</body>
+    {% endfor %}
+    </body>
 </html>
 

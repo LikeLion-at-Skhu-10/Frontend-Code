@@ -1,15 +1,30 @@
 .html_title{
-    font-size:5px;
+    font-size: 30px;
+    color: palevioletred;
 }
 
-.form_title {
-    border: 5px solid aquamarine;
+.detail_title{
+    font-size: 20;
+    color: blue;
+    text-align: center;
 }
 
-.form_labl {
-    color: purple;
-}
-
-.detail_style {
+.detail_date{
+    font-size: 15;
     color: blueviolet;
+    text-align: center;
+}
+
+.detail_body{
+    font-size: 10;
+    color: aquamarine;
+    text-align: center;
+}
+
+.form_labl{
+    color: orchid;
+}
+
+.form_detail{
+    color: red;
 }
