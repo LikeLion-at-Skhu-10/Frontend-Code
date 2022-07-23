@@ -1,0 +1,107 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'Shilla_CultureB-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureB-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body{
+    height: 10000px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(205, 219, 255);
+}
+
+.main-content-1{
+    background-color: #e3f0ff;
+    border-top: 1px solid #191919;
+    border-bottom: 1px solid #191919;
+    width: 100%;
+    height: 300vh;
+}
+
+.sticky{
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fafafa;
+}
+
+.title{
+    border-top: 1px solid #191919;
+    background-color: #fff;
+}
+
+.header {
+    position:fixed;
+    z-index:1;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    height: 4vh;
+    border-bottom: 1px solid #191919;
+    display:flex;
+    align-items: center;
+    padding-left: 5vh;
+    font-size: 2vh;
+}
+
+.start-screen{
+    padding-top: 4vh;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.sticky-title{
+    width:100%;
+    height:76vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    font-weight:bold;
+    text-align: center;
+    font-family: 'Shilla_CultureB-Bold';
+}
+
+.title{
+    border-top: 1px solid black;
+    background-color: #fff;
+    height: 6vh;
+    display:flex;
+    align-items: center;
+    font-size:2vh;
+    padding-left:3vh;
+}
+
+div{
+    font-size-adjust: 30px;
+}
+
+p{
+    font-size: large;
+    font-family: 'Shilla_CultureB-Bold';
+}
+
+img {  
+    max-width: 100%;  
+    height: auto;  
+    }  
+    
