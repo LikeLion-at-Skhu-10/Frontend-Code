@@ -1,0 +1,82 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body{
+    height: 10000px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #CCD6A6;
+}
+
+.main-content-1{
+    background-color: #DAE2B6;
+    border-top: 1px solid #F7EDDB;
+    border-bottom: 1px solid #F7EDDB;
+    width: 100%;
+    height: 400vh;
+}
+
+.sticky{
+    border: 3px solid #F7EDDB;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 200vh;
+    overflow: hidden;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #DAE2B6;
+}
+
+.title{
+    border-top: 1px double #F7EDDB;
+    background-color: #DFE8CC;
+}
+.header{
+    position: fixed;
+    z-index:1;
+    background-color: #CCD6A6;
+    top:0;
+    width:100%;
+    height:4vh;
+    border-bottom: 1px double #191919;
+    display:flex;
+    align-items: center;
+    padding-left:5vh;
+    font-size:2vh;
+}
+.start-screen{
+    padding-top:4vh;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size:6vh;
+    text-align: center;
+}
+.sticky-title{
+    width: 100%;
+    height:76vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3vw;
+    font-size:bold;
+    text-align: center;
+}
+.title{
+    border-top:1px solid #191919;
+    background-color: #ffffff;
+    height: 6vh;
+    display:flex;
+    align-items: center;
+    font-size: 2vh;
+    padding-left:3vh;
+}

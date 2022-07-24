@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86dfbc7e-229b-482f-9600-d4e8df977197" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/migrations/0002_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/migrations/0003_blog_imgfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/CSS/CR.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/CSS/Detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/CSS/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/CSS/new.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/CSS/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/JS/new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/JS/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/static/image/KakaoTalk_20220704_173541256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/templates/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/templates/form_C.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/templates/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRproject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRproject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRproject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/CRproject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../createreadproject/CRproject/manage.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CFUj3G68F3PnirH5V7bXcZbXHV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/khj04/OneDrive/문서/SSGTUDY"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86dfbc7e-229b-482f-9600-d4e8df977197" name="Changes" comment="" />
+      <created>1658397957829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658397957829</updated>
+    </task>
+    <servers />
+  </component>
+</project>
