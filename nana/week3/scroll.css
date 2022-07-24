@@ -1,0 +1,90 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+    font-family: 'Noto Sans KR', sans-serif;
+   }
+
+html, body {
+    height: 100;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: palevioletred;
+}
+
+img {  
+    max-width: 30%;
+    height: fit-content;  
+} 
+
+.header {
+    position:fixed;
+    z-index:1;
+    background-color: floralwhite;
+    top: 0;
+    width: 100%;
+    height: 4vh;
+    border-bottom: 1px solid #191919;
+    display:flex;
+    align-items: center;
+    padding-left: 5vh;
+    font-size: 2vh;
+}
+
+.title{
+    border-top: 1px solid black;
+    background-color: #fff;
+    height: 6vh;
+    display:flex;
+    align-items: center;
+    font-size:2vh;
+    padding-left:3vh;
+}
+
+.main-content-1{
+    background-color: #e3f0ff;
+    border-top: 1px solid #191919;
+    border-bottom: 1px solid #191919;
+    width: 100%;
+    height: 300vh;
+}
+
+.sticky{
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: palevioletred;
+}
+
+.start-screen{
+    padding-top: 4vh;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.sticky-title{
+    width:100%;
+    height:76vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    font-weight:bold;
+    text-align: center;
+}
+
+
+
+ 
+    

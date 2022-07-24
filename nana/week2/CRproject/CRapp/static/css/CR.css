@@ -1,0 +1,30 @@
+.html_title{
+    font-size: 30px;
+    color: palevioletred;
+}
+
+.detail_title{
+    font-size: 20;
+    color: blue;
+    text-align: center;
+}
+
+.detail_date{
+    font-size: 15;
+    color: blueviolet;
+    text-align: center;
+}
+
+.detail_body{
+    font-size: 10;
+    color: aquamarine;
+    text-align: center;
+}
+
+.form_labl{
+    color: orchid;
+}
+
+.form_detail{
+    color: red;
+}
